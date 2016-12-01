@@ -1,0 +1,49 @@
+<html>
+ <head>
+   <title></title>
+ </head>
+ <body>
+   <script>
+     var i,j,a,z;
+     
+     
+     a=" ";
+     z="1";
+       for (j=0;j<10;j++)
+       {
+         if(z=="1"){
+         for(i=0;i<10;i++)
+           {
+           if (i%2)
+           {
+             a=a+"[ ]";
+           }
+           else
+           {
+             a=a+"#";
+           }
+         }
+       console.log(a);
+       a="[ ]";
+       z="#";
+     }
+     else {
+       for(i=0;i<10;i++)
+         {
+         if (i%2)
+         {
+           a=a+"#";
+         }
+         else
+         {
+           a=a+"[ ]";
+         }
+       }
+     console.log(a);
+     a=" ";
+     z="1";
+   }
+     }
+   </script>
+ </body>
+</html>

@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>
+dfn
+</title>
+</head>
+<body>
+<script>
+var q=1825;
+var sum=0;
+function F(){
+sum =sum + q%10;
+q = Math.floor(q/10);
+
+if (q==0)
+	alert(sum);
+else 
+	F();
+}
+F();
+
+
+</script>
+</body>
+</html>
